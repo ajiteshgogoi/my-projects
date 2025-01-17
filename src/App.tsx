@@ -4,7 +4,7 @@ const App: React.FC = () => {
   const apps = [  
     {
       title: 'Cozy Connect',
-      description: 'An AI-powered conversation prompt generator designed to foster natural, engaging conversations.',
+      description: 'An AI-powered conversation prompt generator designed to foster natural, engaging interactions.',
       imageUrl: 'https://cozyconnect.vercel.app/og.png',
       appUrl: 'https://cozyconnect.vercel.app',
       category: 'Communication'
