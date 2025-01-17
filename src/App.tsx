@@ -31,7 +31,7 @@ const App: React.FC = () => {
         <h1 className="text-5xl font-bold uppercase tracking-wider text-white [text-shadow:_0_0_4px_#ffffff70]">MY PROJECTS</h1>
       </header>
       <main className="flex-1 px-4 md:px-8 py-12">
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <section className="grid grid-cols-1 md:grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8 max-w-7xl mx-auto place-content-center min-h-[calc(100vh-20rem)] py-8">
           {apps.map((app, index) => (
               <a key={index} href={app.appUrl} target="_blank" rel="noopener noreferrer" className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <img src={app.imageUrl} alt={app.title} className="w-full h-56 object-cover" />
