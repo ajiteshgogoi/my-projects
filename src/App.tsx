@@ -42,7 +42,7 @@ const App: React.FC = () => {
                   <h2 className="text-2xl font-bold text-gray-900 mb-3">{app.title}</h2>
                   <p className="text-gray-600 leading-relaxed">{app.description}</p>
                   <div className="mt-4">
-                    <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-medium">{app.category}</span>
+                    <span className="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm font-medium">{app.category}</span>
                   </div>
                 </div>
               </a>
