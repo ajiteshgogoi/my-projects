@@ -1,14 +1,7 @@
 import React from 'react';
 
 const App: React.FC = () => {
-  const apps = [
-    {
-      title: 'AI Addiction Network',
-      description: 'A cyberpunk-themed trading game where players navigate the underground market of virtual AI drugs.',
-      imageUrl: 'https://ai-addiction-network.vercel.app/og.png',
-      appUrl: 'https://ai-addiction-network.vercel.app',
-      category: 'Game'
-    },
+  const apps = [  
     {
       title: 'Cozy Connect',
       description: 'An AI-powered conversation prompt generator designed to foster natural, engaging conversations.',
@@ -17,18 +10,25 @@ const App: React.FC = () => {
       category: 'Communication Aid'
     },
     {
-      title: 'App Three',
-      description: 'Innovative solution for your daily tasks.',
-      imageUrl: 'https://placehold.co/600x400',
-      appUrl: '#',
-      category: 'Utility'
+      title: 'AI Addiction Network',
+      description: 'A cyberpunk-themed trading game where players navigate the underground market of virtual AI drugs.',
+      imageUrl: 'https://ai-addiction-network.vercel.app/og.png',
+      appUrl: 'https://ai-addiction-network.vercel.app',
+      category: 'Game'
+    },
+    {
+//    title: 'App Three',
+  //  description: 'Innovative solution for your daily tasks.',
+ //   imageUrl: 'https://placehold.co/600x400',
+  //  appUrl: '#',
+  //  category: 'Utility'
     },
   ];
 
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col font-sans">
-      <header className="py-12 px-4 md:px-8 text-center bg-gray-900 shadow-md">
-        <h1 className="text-5xl font-bold uppercase tracking-wider text-white bg-gradient-to-r from-green-300 via-blue-300 to-purple-300 bg-clip-text text-transparent animate-gradient-x">MY PROJECTS</h1>
+      <header className="py-12 px-4 md:px-8 text-center bg-[#121212] shadow-md">
+        <h1 className="text-5xl font-bold uppercase tracking-wider text-white [text-shadow:_0_0_4px_#ffffff70]">MY PROJECTS</h1>
       </header>
       <main className="flex-1 px-4 md:px-8 py-12">
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
@@ -46,8 +46,8 @@ const App: React.FC = () => {
           ))}
         </section>
       </main>
-      <footer className="py-6 px-4 md:px-8 bg-gray-900 border-t border-gray-800 text-center">
-        <p className="text-gray-200">© {new Date().getFullYear()} ajitesh gogoi. All rights reserved.</p>
+      <footer className="py-6 px-4 md:px-8 bg-[#121212] border-t border-gray-800 text-center">
+        <p className="text-gray-200">© {new Date().getFullYear()} <a href="https://ajiteshgogoi.com/" className="hover:text-blue-300 transition-colors">ajitesh gogoi</a>. All rights reserved.</p>
       </footer>
     </div>
   );
