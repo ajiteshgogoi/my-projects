@@ -7,7 +7,7 @@ const App: React.FC = () => {
       description: 'An AI-powered conversation prompt generator designed to foster natural, engaging conversations.',
       imageUrl: 'https://cozyconnect.vercel.app/og.png',
       appUrl: 'https://cozyconnect.vercel.app',
-      category: 'Communication Aid'
+      category: 'Communication'
     },
     {
       title: 'AI Addiction Network',
@@ -28,7 +28,7 @@ const App: React.FC = () => {
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col font-sans">
       <header className="py-12 px-4 md:px-8 text-center bg-[#121212] shadow-md">
-        <h1 className="text-5xl font-bold uppercase tracking-wider text-white [text-shadow:_0_0_4px_#ffffff70]">MY PROJECTS</h1>
+        <h1 className="text-4xl font-bold uppercase tracking-wider text-white [text-shadow:_0_0_4px_#ffffff70]">MY PROJECTS</h1>
       </header>
       <main className="flex-1 px-4 md:px-8 py-12">
         <section className="grid grid-cols-1 md:grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8 max-w-7xl mx-auto place-content-center min-h-[calc(100vh-20rem)] py-8">
