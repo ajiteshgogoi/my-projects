@@ -27,8 +27,11 @@ const App: React.FC = () => {
 
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col font-sans">
-      <header className="py-12 px-4 md:px-8 text-center bg-[#121212] shadow-md">
-        <h1 className="text-4xl font-bold uppercase tracking-wider text-white [text-shadow:_0_0_4px_#ffffff70]">MY PROJECTS</h1>
+      <header className="py-12 px-4 md:px-8 bg-[#121212] shadow-md">
+        <div className="flex items-center justify-center gap-4">
+          <img src="/icon.svg" alt="Logo" className="w-12 h-12" />
+          <h1 className="text-4xl font-bold uppercase tracking-wider text-white [text-shadow:_0_0_4px_#ffffff70]">MY PROJECTS</h1>
+        </div>
       </header>
       <main className="flex-1 px-4 md:px-8 py-12">
         <section className="grid grid-cols-1 md:grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8 max-w-7xl mx-auto place-content-center min-h-[calc(100vh-20rem)] py-8">
@@ -47,7 +50,7 @@ const App: React.FC = () => {
         </section>
       </main>
       <footer className="py-6 px-4 md:px-8 bg-[#121212] border-t border-gray-800 text-center">
-        <p className="text-gray-200">© {new Date().getFullYear()} <a href="https://ajiteshgogoi.com/" className="hover:text-blue-300 transition-colors">ajitesh gogoi</a>. All rights reserved.</p>
+        <p className="text-gray-200">© {new Date().getFullYear()} <a href="https://ajiteshgogoi.com/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition-colors">ajitesh gogoi</a>. All rights reserved.</p>
       </footer>
     </div>
   );
