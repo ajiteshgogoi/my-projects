@@ -11,7 +11,7 @@ const App: React.FC = () => {
     },
     {
       title: 'AI Addiction Network',
-      description: 'A cyberpunk-themed trading game where players navigate the underground market of virtual AI drugs.',
+      description: 'A cyberpunk-themed trading game where players navigate the underground market of virtual AI simulation drugs.',
       imageUrl: 'https://ai-addiction-network.vercel.app/og.png',
       appUrl: 'https://ai-addiction-network.vercel.app',
       category: 'Game'
