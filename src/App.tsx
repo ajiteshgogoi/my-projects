@@ -17,11 +17,11 @@ const App: React.FC = () => {
       category: 'Game'
     },
     {
-//    title: 'App Three',
-  //  description: 'Innovative solution for your daily tasks.',
- //   imageUrl: 'https://placehold.co/600x400',
-  //  appUrl: '#',
-  //  category: 'Utility'
+      title: 'Perfect Egg Timer',
+      description: 'A precise egg timer for perfectly runny, soft or hard boiled eggs every time.',
+      imageUrl: 'https://perfect-egg-timer.vercel.app/og.png',
+      appUrl: 'https://perfect-egg-timer.vercel.app/',
+      category: 'Utility'
     },
   ];
 
