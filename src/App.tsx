@@ -18,7 +18,7 @@ const App: React.FC = () => {
     },
     {
       title: 'Perfect Egg Timer',
-      description: 'A precise egg timer for perfectly runny, soft or hard boiled eggs every time.',
+      description: 'Get perfectly boiled eggs every time with this precise egg timer.',
       imageUrl: 'https://perfect-egg-timer.vercel.app/og.png',
       appUrl: 'https://perfect-egg-timer.vercel.app/',
       category: 'Utility'
