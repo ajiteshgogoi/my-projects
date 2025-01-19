@@ -50,7 +50,7 @@ const App: React.FC = () => {
         </section>
       </main>
       <footer className="py-6 px-4 md:px-8 bg-[#121212] border-t border-gray-800 text-center">
-        <p className="text-gray-200">© {new Date().getFullYear()} <a href="https://ajiteshgogoi.com/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition-colors">ajitesh gogoi</a>. All rights reserved.</p>
+        <p className="text-gray-200">© {new Date().getFullYear()} <a href="https://ajiteshgogoi.com/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition-colors">ajitesh gogoi</a></p>
       </footer>
     </div>
   );
