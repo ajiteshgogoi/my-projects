@@ -30,7 +30,7 @@ const App: React.FC = () => {
       <header className="py-12 px-4 md:px-8 bg-[#121212] shadow-md">
         <div className="flex items-center justify-center gap-4">
           <img src="/logo.svg" alt="Logo" className="w-12 h-12" />
-          <h1 className="text-4xl font-bold uppercase tracking-wider text-white [text-shadow:_0_0_4px_#ffffff70]">MY PROJECTS</h1>
+          <h1 className="text-4xl font-bold uppercase tracking-wider text-white [text-shadow:_0_0_4px_#ffffff70]">PROJECTS</h1>
         </div>
       </header>
       <main className="flex-1 px-4 md:px-8 py-12">
