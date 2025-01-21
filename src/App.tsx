@@ -3,6 +3,13 @@ import React from 'react';
 const App: React.FC = () => {
   const apps = [  
     {
+      title: 'BookSync',
+      description: 'Easily sync your Kindle highlights to Notion. Organise your reading insights in a searchable database.',
+      imageUrl: 'https://booksync.vercel.app/og.png',
+      appUrl: 'https://booksync.vercel.app/',
+      category: 'Utility'
+    },
+    {
       title: 'Cozy Connect',
       description: 'An AI-powered conversation prompt generator designed to foster deep, engaging interactions.',
       imageUrl: 'https://cozyconnect.vercel.app/og.png',
