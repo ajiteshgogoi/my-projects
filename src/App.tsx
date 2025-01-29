@@ -4,7 +4,7 @@ const App: React.FC = () => {
   const apps = [  
     {
       title: 'BookSync',
-      description: 'Easily sync your Kindle highlights to Notion. Organise your reading insights in a searchable database.',
+      description: 'Sync your Kindle highlights to Notion. Maintain a personal library of your favourite book passages.',
       imageUrl: 'https://booksync.vercel.app/og.png',
       appUrl: 'https://booksync.vercel.app/',
       category: 'Utility'
