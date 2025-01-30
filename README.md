@@ -1,3 +1,5 @@
-# This repo contains all my projects.
+# This repo contains links to my projects.
 
-Visit https://ajiteshgogoi.com/ for all my links.
+🖥️🕹️**[Check out all my apps](https://apps.ajiteshgogoi.com/)**
+
+Visit https://ajiteshgogoi.com/ for all my other links.
