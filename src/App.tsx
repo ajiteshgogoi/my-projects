@@ -3,6 +3,13 @@ import React from 'react';
 const App: React.FC = () => {
   const apps = [  
     {
+      title: 'TouchBase',
+      description: 'Stay connected with the people who matter.',
+      imageUrl: 'https://touchbasepro.vercel.app/og.png',
+      appUrl: 'https://touchbasepro.vercel.app/',
+      category: 'Utility'
+    },
+    {
       title: 'BookSync',
       description: 'Sync your Kindle highlights to Notion. Maintain a personal library of your favourite book passages.',
       imageUrl: 'https://booksync.vercel.app/og.png',
