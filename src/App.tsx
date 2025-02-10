@@ -52,10 +52,10 @@ const App: React.FC = () => {
           {apps.map((app, index) => (
               <a key={index} href={app.appUrl} target="_blank" rel="noopener noreferrer" className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <img src={app.imageUrl} alt={app.title} className="w-full h-56 object-cover" />
-                <div className="p-6">
+                <div className="p-6 flex flex-col h-full">
                   <h2 className="text-2xl font-bold text-gray-900 mb-3">{app.title}</h2>
                   <p className="text-gray-600 leading-relaxed">{app.description}</p>
-                  <div className="mt-4">
+                  <div className="mt-auto pt-4">
                     <span className="inline-block bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm font-medium">{app.category}</span>
                   </div>
                 </div>
