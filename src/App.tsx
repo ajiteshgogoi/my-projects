@@ -5,8 +5,8 @@ const App: React.FC = () => {
     {
       title: 'TouchBase',
       description: 'An intelligent relationship management tool to help you stay connected with the people who matter most.',
-      imageUrl: 'https://touchbasepro.vercel.app/og.png',
-      appUrl: 'https://touchbasepro.vercel.app/',
+      imageUrl: 'https://www.touchbase.site/og.png',
+      appUrl: 'https://www.touchbase.site/',
       category: 'Utility'
     },
     {
