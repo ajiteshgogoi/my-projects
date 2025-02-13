@@ -39,7 +39,7 @@ const App: React.FC = () => {
     },
     {
       title: 'JhurGreens',
-      description: 'JhurGreens International is a premier sourcing agency and exporter.',
+      description: 'A 5-page website for JhurGreens International— a premier sourcing agency and exporter.',
       imageUrl: 'https://static.wixstatic.com/media/e11c16_9584b5dabb964386b62e9f55b815c68d~mv2.png',
       appUrl: 'https://www.jhurgreens.com/',
       category: 'Website'
