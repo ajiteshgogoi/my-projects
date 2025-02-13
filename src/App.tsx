@@ -71,32 +71,34 @@ const App: React.FC = () => {
           ))}
         </section>
       </main>
-      <footer className="py-6 px-4 md:px-8 bg-[#121212] border-t border-gray-800 text-center">
-        <div className="flex justify-center gap-6 mb-4">
-          <a
-            href="https://t.me/ajiteshgogoi"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2"
-          >
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.334-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.458c.538-.204 1.006.121.833.939z"/>
-            </svg>
-            <span>Telegram</span>
-          </a>
-          <a
-            href="mailto:ajiteshgogoi@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2"
-          >
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-            </svg>
-            <span>Email</span>
-          </a>
+      <footer className="py-6 px-4 md:px-8 bg-[#121212] border-t border-gray-800">
+        <div className="max-w-7xl mx-auto flex justify-between items-center">
+          <p className="text-gray-200">© {new Date().getFullYear()} <a href="https://ajiteshgogoi.com/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition-colors">ajitesh gogoi</a></p>
+          <div className="flex gap-6">
+            <a
+              href="https://t.me/ajiteshgogoi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2"
+            >
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.334-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.458c.538-.204 1.006.121.833.939z"/>
+              </svg>
+              <span>Telegram</span>
+            </a>
+            <a
+              href="mailto:ajiteshgogoi@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-200 hover:text-blue-300 transition-colors flex items-center gap-2"
+            >
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+              <span>Email</span>
+            </a>
+          </div>
         </div>
-        <p className="text-gray-200">© {new Date().getFullYear()} <a href="https://ajiteshgogoi.com/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-300 transition-colors">ajitesh gogoi</a></p>
       </footer>
     </div>
   );
