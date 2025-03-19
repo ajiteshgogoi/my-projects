@@ -4,7 +4,7 @@ const App: React.FC = () => {
   const apps = [  
     {
       title: 'TouchBase',
-      description: 'An intelligent relationship management tool to help you stay connected with the people who matter most.',
+      description: 'A personal relationship manager (Personal CRM) to help you stay connected with the people who matter most.',
       imageUrl: 'https://touchbase.site/og.png',
       appUrl: 'https://touchbase.site/',
       category: 'Utility'
